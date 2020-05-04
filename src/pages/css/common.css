@@ -1,0 +1,218 @@
+@font-face {
+  font-family: Circular;
+  src: url(../../assets/fonts/CircularStd-Light.eot);
+  src: url(../../assets/fonts/CircularStd-Light.eot?#iefix) format("embedded-opentype"),
+    url(../../assets/fonts/CircularStd-Light.woff2) format("woff2"),
+    url(../../assets/fonts/CircularStd-Light.woff) format("woff"),
+    url(../../assets/fonts/CircularStd-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: circular;
+  src: url(../../assets/fonts/CircularStd-Book.eot);
+  src: url(../../assets/fonts/CircularStd-Book.eot?#iefix) format("embedded-opentype"),
+    url(../../assets/fonts/CircularStd-Book.woff2) format("woff2"),
+    url(../../assets/fonts/CircularStd-Book.woff) format("woff"),
+    url(../../assets/fonts/CircularStd-Book.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url(../../assets/fonts/CircularStd-Medium.eot);
+  src: url(../../assets/fonts/CircularStd-Medium.eot?#iefix) format("embedded-opentype"),
+    url(../../assets/fonts/CircularStd-Medium.woff2) format("woff2"),
+    url(../../assets/fonts/CircularStd-Medium.woff) format("woff"),
+    url(../../assets/fonts/CircularStd-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url(../../assets/fonts/CircularStd-Bold.eot);
+  src: url(../../assets/fonts/CircularStd-Bold.eot?#iefix) format("embedded-opentype"),
+    url(../../assets/fonts/CircularStd-Bold.woff2) format("woff2"),
+    url(../../assets/fonts/CircularStd-Bold.woff) format("woff"),
+    url(../../assets/fonts/CircularStd-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: circular;
+}
+
+.root {
+  height: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.ant-popover-inner-content {
+  padding: 0 !important;
+}
+
+.hidden--no-size {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.hidden-opacity {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.visible-opacity {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fade-animation-50-enter {
+  opacity: 0;
+}
+
+.fade-animation-50-enter-active {
+  opacity: 1;
+  transition: all 50ms ease-in;
+}
+
+.fade-animation-50-exit {
+  opacity: 1;
+}
+
+.fade-animation-50-exit-active {
+  opacity: 0;
+  transition: all 50ms ease-in;
+}
+
+.fade-animation-300-enter {
+  opacity: 0;
+}
+
+.fade-animation-300-enter-active {
+  opacity: 1;
+  transition: all 300ms ease-out;
+}
+
+.fade-animation-300-exit {
+  opacity: 1;
+}
+
+.fade-animation-300-exit-active {
+  opacity: 0;
+  transition: all 300ms ease-out;
+}
+
+.spacer--h--5 {
+  width: 5px;
+}
+
+.spacer--h--10 {
+  width: 10px;
+}
+
+.spacer--h--15 {
+  width: 15px;
+}
+
+.spacer--h--20 {
+  width: 20px;
+}
+
+.spacer--h--30 {
+  width: 30px;
+}
+
+.spacer--v--5 {
+  height: 5px;
+}
+
+.spacer--v--10 {
+  height: 10px;
+}
+
+.spacer--v--15 {
+  height: 15px;
+}
+
+.spacer--v--20 {
+  height: 20px;
+}
+
+.spacer--v--30 {
+  height: 30px;
+}
+
+.color--blue-gray {
+  color: #57698A;
+}
+
+.color--red {
+  color: #ff0000;
+}
+
+.color--gold {
+  color: #f4cf02;
+}
+
+.color--dark--gray {
+  color: #4A4A4A;
+}
+
+.text--align--left {
+  text-align: left;
+}
+
+.text--align--center {
+  text-align: center;
+}
+
+.text--align--right {
+  text-align: right;
+}
+
+.text--wrap {
+  white-space: normal;
+}
+
+.display--inlineBlock {
+  display: inline-block;
+}
+
+.cursor--pointer {
+  cursor: pointer;
+}
+
+.overflow--hidden {
+  overflow: hidden;
+}
+
+/* For Carousel */
+.slider-list {
+  cursor: default !important;
+}
+
+.full--width {
+  width: 100%;
+}
+
+.zero-height {
+  height: 0 !important;
+}

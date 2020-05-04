@@ -1,0 +1,25 @@
+module.exports = {
+  extends: ['airbnb', 'prettier'],
+  plugins: ['prettier'],
+  parser: 'babel-eslint',
+  env: {
+    browser: true,
+  },
+  rules: {
+    'no-plusplus': 'off',
+    'no-unused-expressions': ['error', { "allowShortCircuit": true }],
+    'prettier/prettier': ['error'],
+    'react/prop-types': [false],
+    'react/prefer-stateless-function': 0,
+    'import/prefer-default-export': 0,
+    'import/no-extraneous-dependencies': 0,
+    'react/jsx-filename-extension': 0,
+    'react/destructuring-assignment': [true, 'always', { ignoreClassFields: false }],
+    'jsx-a11y/label-has-for': false,
+    'jsx-a11y/label-has-associated-control': false,
+    'jsx-a11y/anchor-is-valid': false,
+    'jsx-a11y/click-events-have-key-events': false,
+    'jsx-a11y/no-static-element-interactions': false,
+    'jsx-a11y/no-noninteractive-element-interactions': false,
+  },
+};

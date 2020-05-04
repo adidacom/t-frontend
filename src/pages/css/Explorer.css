@@ -1,0 +1,136 @@
+.Explorer {
+  min-width: 1250px;
+}
+@media only screen and (max-width: 530px) {
+  .Explorer {
+    min-width: 250px;
+  }
+}
+
+.Explorer {
+  padding-bottom: 50px;
+}
+
+.Explorer__Area {
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1340px;
+  margin: auto;
+}
+
+.Explorer__Area h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #3a3a3a;
+  margin: 20px;
+  text-shadow: 0 1px 3px #aaaaaa;
+}
+
+.Explorer__TreeGraph-Container {
+  width: 100%;
+  height: 600px;
+  background-color: #272B4D;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 3px 7px -1px #555555;
+  box-shadow: 0 3px 7px -1px #555555;
+}
+
+.Explorer__Select {
+  min-width: 550px;
+  margin: auto;
+}
+
+.Explorer__Select__control--is-focused .Explorer__Select__single-value {
+  transition: all 200ms ease;
+  opacity: .5 !important;
+}
+
+.Explorer__Select__value-container {
+  padding-left: 12px !important;
+}
+
+.Explorer__Select__control--is-focused {
+  box-shadow: none !important;
+  border: auto !important;
+}
+
+.Explorer__Select__indicator {
+  padding: 0 6px !important;
+}
+
+.Explorer__Select__option {
+  padding-left: 14px !important;
+}
+
+.Explorer__Select__option--is-selected {
+  background-color: #1a79d3 !important;
+}
+
+.Explorer__List-Section {
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.Explorer__List-Container {
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  width: 280px;
+  height: 310px;
+}
+
+.Explorer__List-Container h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #4a4a4a;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.Explorer__List__Popper {
+  z-index: 100000000 !important;
+  margin-bottom: -70px !important;
+}
+
+.Explorer__List__Tooltip {
+  padding: 8px 12px !important;
+  font-size: 16px !important;
+  text-align: center;
+}
+
+.Explorer__Intro__Tooltip {
+  padding: 20px 20px 20px 30px;
+  min-width: 300px;
+}
+
+.Explorer__Stats-Section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 90px 30px 90px;
+  color: #3a3a3a;
+  justify-content: center;
+}
+
+.Explorer__Stats-Section h3 {
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+.Explorer__Stats-Section span {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}

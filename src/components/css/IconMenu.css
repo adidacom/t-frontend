@@ -1,0 +1,49 @@
+.IconMenu {
+  width: 34px;
+  height: 26px;
+  font-size: 18px;
+  border-radius: 17px;
+  background-color: #56a9e8;
+  color: #ffffff;
+  padding: 4px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.IconMenu__list {
+  position: relative;
+  right: 104px;
+  bottom: 10px;
+  background-color: #ffffff;
+  width: 120px;
+  text-align: left;
+  padding: 0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 4px -1px #555555;
+  box-shadow: 0 2px 4px -1px #555555;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1b3359;
+  z-index: 999;
+}
+
+.IconMenu__list ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.IconMenu__list li {
+  padding: 5px 16px;
+  cursor: pointer;
+}
+
+.IconMenu__list a {
+  color: #1b3359;
+  text-decoration: none;
+}
+
+.IconMenu__list li:hover {
+  background-color: #f4f6f9;
+}
